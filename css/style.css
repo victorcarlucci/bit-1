@@ -2,11 +2,13 @@
 
 
 
+
+/* NAV */
+
 .fondo-nav {
 
     background-color: #A100FF;
-    ;
-    
+    ;   
    
 }
 
@@ -15,9 +17,42 @@
     color: white;
 }
 
-.btn {
+.btn-pruebaGratis {
 
     background-color: #D999FF;
+     
+}
+
+/* BODY CAROUSEL */
+
+.carousel-tamaño{
+
+    padding-top: 5%;
+
+}
+
+
+/*SECTION*/
+
+.text-rest{
+
+    padding-top: 100px;
+}
+
+.text-todo-en-uno{
+
+    color: #A100FF;
+    padding: 20px;
+    font-size: 3.5rem;
+}
+
+.img-gente-feliz{
+
+
+}
+
+.text-parrafo1{
+
     
-    
+
 }
