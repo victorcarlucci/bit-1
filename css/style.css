@@ -17,11 +17,26 @@
     color: white;
 }
 
-.btn-pruebaGratis {
+.btn-callToAction {
 
     background-color: #D999FF;
      
 }
+
+.logoImg {
+
+    width: 90px;
+    height: auto;
+}
+
+.logo-pos {
+
+    
+    width: 300px;
+    height: auto;
+}
+
+
 
 /* BODY CAROUSEL */
 
@@ -31,7 +46,6 @@
     
 
 }
-
 
 
 
@@ -46,5 +60,30 @@
 
     color: #A100FF;
     font-size: 3.5rem;
+}
+
+/*SECTION TWO*/
+
+.bg-sectionTwo {
+
+    background-color: #D999FF;
+}
+
+.h4Tittle {
+
+    color: white;
+    text-decoration: solid;
+}
+
+.imgSecondSection {
+
+    width: 90px;
+    margin-top: 20px;
+    
+}
+
+.containerSecondSection {
+
+    background-color: #D999FF;
 }
 
