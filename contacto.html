@@ -48,28 +48,28 @@
 
     <div class="container bg-containerForm p-5 rounded-5 mb-5">
 
-            <form class="row g-3 needs-validation" novalidate>
+            <form id="contactForm" class="row g-3 needs-validation" novalidate>
                     <div class="col-md-4">
-                        <label for="validationCustom01" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="validationCustom01" value="" required>
+                        <label for="name" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="name" name="name">
                             <div class="valid-feedback">
                             Looks good!
                             </div>
                     </div>
 
                     <div class="col-md-4">
-                        <label for="validationCustom02" class="form-label">Apellido</label>
-                        <input type="text" class="form-control" id="validationCustom02" value="" required>
+                        <label for="lastName" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="lastName" name="lastName">
                             <div class="valid-feedback">
                             Looks good!
                             </div>
                     </div>
 
                     <div class="col-md-4">
-                        <label for="validationCustomUsername" class="form-label">Email</label>
+                        <label for="email" class="form-label">Email</label>
                         <div class="input-group has-validation">
                         <span class="input-group-text" id="inputGroupPrepend">@</span>
-                        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                        <input type="text" class="form-control" id="email" name="email" aria-describedby="inputGroupPrepend" required>
                             <div class="invalid-feedback">
                             Please choose a username.
                             </div>
@@ -77,8 +77,8 @@
                     </div>
 
                     <div class="col-md-3">
-                        <label for="validationCustom04" class="form-label">País</label>
-                            <select class="form-select" id="validationCustom04" required>
+                        <label for="country" class="form-label">País</label>
+                            <select class="form-select" id="country" name="country" required>
                                 <option selected disabled value>Selecciona...</option>
                                 <option>Colombia</option>
                                 <option>Venezuela</option>
@@ -94,8 +94,8 @@
                     </div>
 
                     <div class="col-md-3 ms-3">
-                        <label for="validationCustom04" class="form-label">Código de área</label>
-                            <select class="form-select w-50" id="validationCustom04" required>
+                        <label for="areaCode" class="form-label">Código de área</label>
+                            <select class="form-select w-50" id="areaCode" name="areaCode" required>
                                 <option selected disabled value class>Selecciona</option>
                                 <option>+57</option>
                                 <option>+58</option>
@@ -111,8 +111,8 @@
                     </div>
 
                     <div class="col-md-3">
-                        <label for="validationCustom05" class="form-label">Teléfono</label>
-                            <input type="text" class="form-control" id="validationCustom05" required>
+                        <label for="numberPhone" class="form-label">Teléfono</label>
+                            <input type="text" class="form-control" id="numberPhone" name="numberPhone" required>
                         <div class="invalid-feedback">
                         Please provide a valid number phone.
                         </div>
@@ -121,7 +121,7 @@
                     <div class="form-check">
                          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                         <label class="form-check-label" for="invalidCheck">
-                         Agree to terms and conditions
+                         Acepto términos y condiciones
                         </label>
                         <div class="invalid-feedback">
                          You must agree before submitting.
@@ -130,8 +130,8 @@
                     </div>
   
                     <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                        <label for="floatingTextarea">Cuentanos sobre tu negocio y lo que quieres lograr...</label>
+                        <textarea class="form-control" id="message" name="message"></textarea>
+                        <label for="message">Cuentanos sobre tu negocio y lo que quieres lograr...</label>
                     </div>
 
                     <div class="col-12">
